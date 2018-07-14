@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CurrencyChange</string>
+    <string name="empty_list">Please wait ...</string>
+</resources>
