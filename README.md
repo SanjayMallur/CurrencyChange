@@ -1,6 +1,6 @@
 # Currency Change
 
-This project is about showing list of currencies post on Recyclerview and each row has an input where we can enter any amount of money. When we tap on currency row it will slide to top and its input becomes first responder. When we are changing the amount the app must simultaneously update the corresponding value for other currencies.
+This project is about showing list of currencies on Recyclerview where all currencies update every second and each row has an input where we can enter any amount of money. When we tap on currency row it will slide to top and its input becomes first responder. When we are changing the amount the app must simultaneously update the corresponding value for other currencies.
 
 
 
