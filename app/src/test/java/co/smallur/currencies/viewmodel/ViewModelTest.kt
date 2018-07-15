@@ -20,7 +20,6 @@ class ViewModelTest {
         viewModel = CurrenciesViewModel(repository)
     }
 
-
     @Test
     fun attachView() {
         viewModel.attachView(currenciesView)

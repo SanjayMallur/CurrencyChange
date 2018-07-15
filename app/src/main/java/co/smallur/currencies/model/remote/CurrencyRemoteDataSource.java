@@ -20,7 +20,7 @@ import static co.smallur.currencies.utils.Constants.INSTANCE;
  * Created by Sanjay
  * Class to call service to get data every second
  */
-public class CurrencyRemoteDataSource implements CurrencyRepository {
+public class CurrencyRemoteDataSource {
 
     private NetworkManager networkManager;
     private Disposable networkObservable;
@@ -51,26 +51,6 @@ public class CurrencyRemoteDataSource implements CurrencyRepository {
             networkObservable.dispose();
             networkObservable = null;
         }
-    }
-
-    @Override
-    public void getDataAndListen() {
-
-    }
-
-    @Override
-    public void cancelData() {
-
-    }
-
-    @Override
-    public void setListener(@NotNull RepositoryListener listener) {
-
-    }
-
-    @Override
-    public void removeListener() {
-
     }
 
     public interface NetworkListener {
