@@ -23,6 +23,7 @@ android {
         debug {
             buildConfigField 'String', 'BASE_URL', '"https://revolut.duckdns.org"'
             minifyEnabled false
+            testCoverageEnabled true
         }
         release {
             buildConfigField 'String', 'BASE_URL', '"https://revolut.duckdns.org"'
